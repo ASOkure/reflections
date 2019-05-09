@@ -1,3 +1,6 @@
 when would you want to create a remote repository rather than keeping all your work local?
 I will always want to have remote repository because this gaurantees code availability just incase my local version is lost or computer 
 damaged. Also if there is a bug in my  master / local version I could checkout a working version of my code  using my commit history on origin.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+To  compare remote  with master, and see first if there is any need for  such changes.
