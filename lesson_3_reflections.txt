@@ -4,3 +4,22 @@ damaged. Also if there is a bug in my  master / local version I could checkout a
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 To  compare remote  with master, and see first if there is any need for  such changes.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forking
+
+A fork is a copy of a repository that allows you to freely experiment with changes without affecting the original project. A forked repository differs from a clone in that a connection exists between your fork and the original repository itself. In this way, your fork acts as a bridge between the original repository and your personal copy where you can contribute back to the original project using Pull Requests.
+Forking a project is as easy as clicking the Fork button in the header of a repository. Once the process is complete, you'll be taken right to your the forked copy of the project so you can start collaborating!
+
+ 
+Cloning
+
+When you create a new repository on GitHub, it exists as a remote location where your project is stored. You can clone your repository to create a local copy on your computer so that you can sync between both the local and remote locations of the project.
+Unlike forking, you won't be able to pull down changes from the original repository you cloned from, and if the project is owned by someone else you won't be able to contribute back to it unless you are specifically invited as a collaborator. Cloning is ideal for instances when you need a way to quickly get your own copy of a repository where you may not be contributing to the original project.
+
+Branches
+
+A branch is something that is within a repository. Conceptually, it represents a thread of development. You usually have a master branch, but you may also have a branch where you are working on some feature xyz, and another one to fix bug abc. When you have checked out a branch, any commits you make will stay on that branch and not be shared with other branches until you merge them with or rebase them onto the branch in question. Of course, Git seems a little weird when it comes to branches until you look at the underlying model of how branches are implemented. Rather than explain it myself (I've already said too much, methinks), I'll link to the "computer science" explanation of how Git models branches and commits, taken from the Git website:
+
+ 
